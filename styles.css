@@ -1,0 +1,170 @@
+div {
+  font-family: "Kode Mono", monospace;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+}
+
+.logo {
+  display: inline-block;
+  color: white;
+  font-weight: 1000;
+  font-size: large;
+  margin: 8px;
+  margin-left: 24px;
+}
+
+#links {
+  display: flex;
+  margin-left: 65%;
+  color: white;
+}
+
+.link1 {
+  padding: 8px;
+}
+
+.link2 {
+  padding: 8px;
+}
+
+.link3 {
+  padding: 8px;
+}
+
+#main-content1 {
+  color: white;
+  justify-content: center;
+  display: flex;
+  background-color: #1f2937;
+}
+
+.desc {
+  justify-content: center;
+  display: block;
+}
+
+.text-main {
+  width: 400px;
+  display: block;
+  padding: 40px;
+}
+
+.image1 {
+  display: block;
+  max-width: 600px;
+  max-height: 248px;
+  width: auto;
+  height: auto;
+}
+
+a {
+  color: white;
+}
+
+.heading1 {
+  text-align: center;
+  margin: 24px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.images-container {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  border: 5px, solid, #6688b8;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 160px;
+  margin: 8px;
+}
+
+.caption {
+  display: block;
+  font-weight: bold;
+}
+
+.quote-container {
+  background-color: #b2d1fd;
+  text-align: center;
+}
+
+.quote {
+  margin: auto;
+  padding: 24px;
+  width: 900px;
+  height: auto;
+  font-size: xx-large;
+  font-style: italic;
+}
+
+.author {
+  width: 900px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: auto;
+  font-size: x-large;
+  text-align: end;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-container {
+  margin: 48px;
+  padding: 24px;
+  text-align: left;
+  width: 900px;
+  background-color: #6688b8;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.button-text {
+  padding-left: 48px;
+  float: left;
+  clear: left;
+}
+
+.button {
+  margin-left: 96px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  min-height: 48px;
+  min-width: 96px;
+}
+
+.button:hover {
+  background-color: #3866e4;
+  transition: 0.7s;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 96px;
+  background-color: #1f2937;
+}
+
+.footer-text {
+  margin: auto;
+  color: white;
+}
